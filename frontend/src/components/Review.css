@@ -1,0 +1,33 @@
+.review-card {
+    width: 100%;
+}
+
+#review-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+    gap: 2rem;
+}
+
+#review-info>p>i {
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+#admin-controls {
+    flex-direction: row;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+#controls i {
+    cursor: pointer;
+}
+
+#controls, #admin-controls, #user-controls {
+    display: flex;
+    flex-direction: row;
+    align-tracks: center;
+    gap: 2rem;
+}

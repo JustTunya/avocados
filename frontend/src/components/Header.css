@@ -1,0 +1,82 @@
+header {
+    width: 100%;
+    padding: 0 2rem 0 2rem;
+
+    background-color: var(--accent);
+    color: var(--primary);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#masthead {
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#homelink {
+    height: 2.5rem;
+}
+
+#auth, #noauth {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#auth>p {
+    border: 1px solid var(--primary);
+    border-radius: 0.75rem;
+    padding: 0 0.5rem 0 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#login, #logout {
+    background-color: var(--primary);
+    color: var(--accent);
+}
+
+#signup {
+    background-color: var(--accent);
+    color: var(--primary);
+    border: 0.1rem solid var(--primary);
+}
+
+#adminhead {
+    padding-bottom: 0.5rem;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+ul>li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 1rem 0 1rem;
+}
+
+ul>li>a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a>h1 {
+    color: var(--primary);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 0.75rem;
+}

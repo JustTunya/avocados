@@ -1,0 +1,118 @@
+#loadmain {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: var(--contrast);
+}
+
+#basic {
+    width: 100%;
+    padding: 2rem;
+}
+
+#container {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+#poster {
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+#additional {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: var(--secondary);
+    padding: 1rem 2rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2>i {
+    margin-right: 1rem;
+}
+
+#review-section {
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#review {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#review>input, #review>textarea, #review>button {
+    height: 2.25rem;
+    border: 1px solid var(--contrast);
+}
+
+#review>input {
+    width: 6rem;
+}
+
+hr {
+    width: 95%;
+    border: 1px solid var(--primary);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#review-section {
+    margin-bottom: 2rem;
+}
+
+#rev-container {
+    width: 80%;
+    margin-top: 0.5rem;
+}
+
+#rev-inputs {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#no-reviews {
+    opacity: 0.5;
+}
+
+#movie-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+#movie-edit>i {
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#no-rev {
+    padding: 2rem;
+    opacity: 0.5;
+}

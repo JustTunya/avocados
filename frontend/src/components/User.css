@@ -1,0 +1,18 @@
+.user-card {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+tr>td {
+    min-width: 10rem;
+    text-align: center;
+}

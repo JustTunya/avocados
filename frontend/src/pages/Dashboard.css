@@ -1,0 +1,12 @@
+#users {
+    width: 100%;
+    background-color: var(--secondary);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0.5rem;
+}
